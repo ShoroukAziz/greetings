@@ -3,7 +3,7 @@
 /* General */
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Serif', monospace;
  // background-color: #c2e6e8;
 }
 
@@ -15,28 +15,28 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
+  background-color: rgb(204, 172, 133);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.2em 0.2em rgb(89, 67, 48);
+  -webkit-box-shadow: 0.2em 0.2em rgb(89, 67, 48);
+  -moz-box-shadow: 0.2em 0.2em rgb(89, 67, 48);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  box-shadow: 0.2em 0.2em rgb(89, 67, 48) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(89, 67, 48) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(89, 67, 48) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: rgb(227, 211, 188); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -48,10 +48,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: rgb(180, 184, 151);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px rgb(132, 149, 115) inset;
 }
 
 #display-controls {
@@ -66,11 +66,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(150,180,175);
+  background-color: rgb(180, 184, 151);
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px rgb(132, 149, 115) inset;
 }
 
 #timer-ssr {
@@ -102,7 +102,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(234,178,156);
+  border: 2px solid rgb(204, 172, 133);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
